@@ -2,3 +2,114 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+header {
+    background-color: rgb(0, 51, 102);
+    padding: 10px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    display: block;
+    background: #fff;
+    min-width: 240px;
+    top: 130%;
+    left: 0;
+    right: 0px;
+    opacity: 0;
+    padding: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease-out 0s;
+    border: 0px;
+    border-top: 5px solid #e12454;
+    border-radius: 0px;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 115%;
+}
+
+.dropdown .dropdown-menu a {
+    color: black;
+}
+
+.dropdown-item {
+    padding: 7px;
+    border: 1px gray;
+}
+
+.custom-footer-bg-color{
+  background-color: rgb(242, 247, 255);
+}
+.custom-footer-content-text {
+  color: gray;
+}
+
+.custom-footer-header-text {
+  color: rgb(0, 51, 102);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-max-width-70 {
+  max-width: 70%;
+}
+.custom-footer-underline-red {
+  background-color: #d1095e; 
+  height: 3px; 
+  width: 37px;
+}
+.custom-list-footer li{
+  list-style-type: none;
+  color: gray;
+}
+
+.custom-footer-btn-subscribe {
+  background-color: #d1095e;
+}
+
+.custom-search {
+    position: relative;
+    width: 300px;
+}
+.custom-search-button-2 {
+    right: 30px;
+    top: 14px;
+    position: absolute;
+    border: 0;
+    background-color: #d1095e !important;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.custom-btn-round-full {
+    border-radius: 50px;
+    height: 50px;
+    width: 275px;
+    padding: 14px;
+    font-size: 14px;
+}
+.btn-main-2 {
+    background: #e12454;
+    color: #fff;
+    border-color: #e12454;
+}
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: .75rem 2rem;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all .35s ease;
+}
