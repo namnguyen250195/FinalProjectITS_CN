@@ -54,6 +54,10 @@ header {
   font-weight: bold;
 }
 
+.custom-header-text {
+  color: rgb(0, 51, 102);
+}
+
 .custom-max-width-70 {
   max-width: 70%;
 }
@@ -69,6 +73,10 @@ header {
 
 .custom-footer-btn-subscribe {
   background-color: #d1095e;
+}
+
+.bg-gray{
+  background-color: ;
 }
 
 .custom-search {
