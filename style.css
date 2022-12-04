@@ -113,3 +113,257 @@ header {
     border: 2px solid transparent;
     transition: all .35s ease;
 }
+
+.department {
+  background: url("img/bg/22.jpg");
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.alldepart {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  
+}
+.care {
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 120px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.blue {
+  position: absolute;
+  background: #122b4d;
+  width: 100%;
+  height: 300px;
+  left: 0;
+  top: 0;
+  opacity: 0.85;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.title{
+ color: #1e3866;
+ font-size: 50px;
+ font-weight: 700;
+ text-align: center;
+ padding-top: 100px;
+ padding-bottom: 20px;
+}
+
+.father{
+  justify-content: center;
+  justify-items: center;
+  width: auto;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.red {
+  background-color: #f23d3d;
+  height: 10px;
+  justify-items: center;
+  width: 80px;
+  margin: auto;
+}
+
+.secred {
+  background-color: #f23d3d;
+  height: 7px;
+  width: 50px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.undertitle {
+  text-align: center;
+  color: #1e3866;
+}
+
+.firstrow {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px;
+}
+
+.secrow {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  font-size: 27px;
+  font-weight: 700;
+  color: #1e3866;
+  padding-top: 15px;
+}
+
+.firstcol {
+  width: 350px;
+}
+
+.text {
+  color: #1e3866;
+}
+
+.seccol {
+  width: 350px;
+}
+
+.rdcol {
+  width: 350px;
+}
+
+.learnmore {
+  padding-top: 10px;
+}
+
+.picture {
+  height: 800px;
+  width: 1200px;
+  padding: 30px;
+  display: flex;
+  margin: auto;
+}
+
+.medicine {
+  padding-left: 110px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.features {
+  padding-left: 110px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.moretext {
+  color: #1d2357;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 110px;
+}
+
+.ttext {
+  color: #1d2357;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+
+.bigg {
+  display: flex;
+  padding-bottom: 0px;
+  
+}
+.secondrow {
+  width: 1000px;
+  background-color: #F3F7FE;
+  margin-right: 110px;
+}
+
+.timeschedule {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.firsttrow {
+  margin-right: 50px;
+}
+
+.smoltext {
+  color: #1d2357;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.crimson-text{
+  color: #CF3A57 !important;
+  font-size: x-large;
+}
+
+
+
+.buttony {
+  margin-left: 110px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 14px;
+  color: white;
+  background-color: #CF3A58;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 70px;
+  font-weight: 600;
+}
+
+.secreds {
+  background-color: #f23d3d;
+  height: 4px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.timetable {
+  display: flex;
+}
+
+.timetable-1 {
+  display: flex;
+}
+
+.timetable-2 {
+  display: flex;
+}
+
+
+.days {
+  margin-left: 20px;
+}
+
+.time {
+  margin-left: 30px;
+  color: #1d2357;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 25px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
