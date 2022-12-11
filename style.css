@@ -866,3 +866,8 @@ textarea.form-control {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.custom-top{
+  margin-top: -50px !important;
+  margin-bottom: 50px !important;
+}
